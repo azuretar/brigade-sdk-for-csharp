@@ -332,4 +332,3 @@ public interface IDeleteManyEventsResult
 	// The number of Events deleted
 	int Count { get; set; }
 }
-
