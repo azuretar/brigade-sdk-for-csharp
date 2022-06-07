@@ -1,6 +1,5 @@
-﻿namespace sdk;
+﻿namespace Brigade.Shared;
 
 public static class Constants {
-    //const string APIVERSION = "brigade.sh/v2";
-
+    public const string ApiVersion = "brigade.sh/v2";
 }
