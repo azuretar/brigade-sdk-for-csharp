@@ -1,15 +1,15 @@
-﻿namespace meta;
-
-public interface IMetaList<T> : IList<T>   
-{
-    public IListMeta? Metadata { get; set; }
-    public List<T> Items { get; set; }
-}
+﻿namespace Brigade.Meta;
 
 public interface IListMeta
 {
     string? Continue { get; set; }
     int? RemainingItemCount { get; set; }
+}
+
+public class ListMeta : IListMeta
+{
+    public string? Continue { get; set; }
+    public int? RemainingItemCount { get; set; }
 }
 
 public interface IListOptions
